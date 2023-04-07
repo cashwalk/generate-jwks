@@ -1,6 +1,6 @@
 {
   "name": "generate-jwks",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple package that issues jwks for asymmetric key authentication",
   "bin": {
     "generate-jwks": "bin/cli.js"
