@@ -1,0 +1,20 @@
+{
+  "name": "generate-jwks",
+  "version": "1.0.0",
+  "description": "simple package for generate jwks to use asymmetric key authentication",
+  "scripts": {
+    "ping": "echo pong"
+  },
+  "bin": {
+    "generate-jwks": "bin/cli.js"
+  },
+  "files": [
+    "cli"
+  ],
+  "author": "devyeon",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^10.0.0",
+    "jose": "^4.13.1"
+  }
+}
