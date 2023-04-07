@@ -5,7 +5,7 @@ const fs = require('fs');
 const { exportJWK, generateKeyPair } = require('jose');
 
 const program = new Command();
-//
+
 program
     .option('--alg <alg>', 'algorithm')
     .option('--crv <crv>', 'curve')

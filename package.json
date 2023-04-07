@@ -1,7 +1,7 @@
 {
   "name": "generate-jwks",
   "version": "1.0.0",
-  "description": "simple package for generate jwks to use asymmetric key authentication",
+  "description": "A simple package that issues jwks for asymmetric key authentication",
   "scripts": {
     "ping": "echo pong"
   },

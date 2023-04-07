@@ -3,7 +3,7 @@
 
 # Simple JWKS generator 
 
-> JWKS 인증에 사용할 비대칭키를 만들어주는 CLI 패키지입니다.
+> A simple package that issues jwks for asymmetric key authentication
 
 ## Usage
 
