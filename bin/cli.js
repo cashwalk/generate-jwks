@@ -6,6 +6,18 @@ const fs = require('fs');
 
 const program = new Command();
 
+program.addHelpText('after', `
+    algorithm examples: 
+    - EdDSA
+    - RS256
+    - ES256
+    - PS256 
+    ...
+
+    For more details and supported algorithms, see:
+    https://github.com/panva/jose/blob/1314d9ac15f191418c864d6bcd52942ba91f75b0/src/runtime/node/generate.ts#L42
+`);
+
 program
     .option('--alg <alg>', 'algorithm')
     .option('--crv <crv>', 'curve')
