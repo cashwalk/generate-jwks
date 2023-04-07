@@ -1,13 +1,11 @@
 {
   "name": "generate-jwks",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple package that issues jwks for asymmetric key authentication",
-  "scripts": {
-    "ping": "echo pong"
-  },
   "bin": {
     "generate-jwks": "bin/cli.js"
   },
+  "repository": "cashwalk/generate-jwks",
   "files": [
     "cli"
   ],

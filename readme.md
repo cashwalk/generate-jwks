@@ -18,4 +18,4 @@ $ npx generate-jwks --alg ${alg} --crv ${crv} --output
 If present, it will output the generated key to the given path.
 ## License
 
-[MIT License](https://andreasonny.mit-license.org/2019) © ksi05503
+[MIT License](https://andreasonny.mit-license.org/2019)
