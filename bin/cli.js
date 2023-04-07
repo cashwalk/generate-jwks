@@ -16,8 +16,8 @@ program
         const privateKey = await exportJWK(keyPair.privateKey);
         const publicKey = await exportJWK(keyPair.publicKey);
 
-        console.log(`**** privateJwk ****\n${JSON.stringify(privateKey)}`);
-        console.log(`**** publicJwk ****\n${JSON.stringify(publicKey)}`);
+        console.log(`============ PrivateJwk ============\n${JSON.stringify(privateKey)}`);
+        console.log(`============ PublicJwk ============\n${JSON.stringify(publicKey)}`);
 
         if (output) {
             fs.writeFileSync('key.json', JSON.stringify(privateKey));
